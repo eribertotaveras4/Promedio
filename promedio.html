@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora de Promedio</title>
+  </head>
+  <body>
+    <h1>Calculadora de Promedio</h1>
+    <p id="resultado"></p>
+
+    <script>
+        let num1 = parseFloat(prompt("Ingrese el primer número:"));
+        let num2 = parseFloat(prompt("Ingrese el segundo número:"));
+        let num3 = parseFloat(prompt("Ingrese el tercer número:"));
+      
+        let suma = num1 + num2 + num3;
+        let promedio = suma / 3;
+      
+        document.getElementById("resultado").innerHTML = "El promedio es: " + promedio;
+      </script>
+  </body>
+</html>
